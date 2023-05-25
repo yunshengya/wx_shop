@@ -1,0 +1,58 @@
+.content{
+	width: 100vw;
+	height: 100vh;
+}
+.sort {
+	.sort_content{
+		margin-top: 10rpx;
+		display: flex;
+		flex-direction: column;
+		view{
+			display: flex;
+			margin: 10rpx 20rpx;
+			view{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				margin: 0 16rpx;
+			}
+		}
+		image {
+			width: 150rpx;
+			height: 150rpx;
+			border-radius: 999rpx;
+		}
+		text{
+			margin-top: 6rpx;
+			font-size: 24rpx;
+			font-weight: 500;
+		}
+	}
+}
+.goods{
+	padding: 30rpx;
+	 .box {
+	        background-color: #fff;
+	        box-shadow: 3rpx 5rpx 57rpx 0px rgba(155, 131, 255, 0.2);
+	        border-radius: 10rpx;
+	        overflow: hidden;
+	    }
+	
+	    .image {
+	        width: 100%;
+	        height: auto;
+	        box-sizing: border-box;
+	        margin: 0;
+	        padding: 0;
+	        vertical-align: bottom;
+	    }
+	
+	    .title {
+	        font-size: 30rpx;
+	        font-family: PingFang SC;
+	        font-weight: 500;
+	        color: #393E51;
+	        padding: 30rpx 16rpx;
+	    }
+}

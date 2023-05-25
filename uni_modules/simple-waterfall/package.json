@@ -1,0 +1,80 @@
+{
+	"id": "simple-waterfall",
+	"displayName": "simple-waterfall瀑布流组件，完全自定义，不受参数限制",
+	"version": "1.0.3",
+	"description": "卡片完全自定义，高度灵活的瀑布流组件，通过监听盒子大小变化自动排列布局，无需过多配置 ",
+	"keywords": [
+        "瀑布流",
+        "瀑布流组件",
+        "简单瀑布流",
+        "自定义瀑布流",
+        "自适应瀑布流"
+    ],
+	"repository": "",
+    "engines": {
+	},
+	"dcloudext": {
+		"type": "component-vue",
+		"sale": {
+			"regular": {
+				"price": "0.00"
+			},
+			"sourcecode": {
+				"price": "0.00"
+			}
+		},
+		"contact": {
+			"qq": "1659022096"
+		},
+		"declaration": {
+			"ads": "无",
+			"data": "插件不采集任何数据",
+			"permissions": "无"
+		},
+		"npmurl": ""
+	},
+	"uni_modules": {
+		"scripts": {},
+		"dependencies": [],
+		"encrypt": [
+		],
+		"platforms": {
+			"cloud": {
+				"tcb": "y",
+				"aliyun": "y"
+			},
+			"client": {
+				"App": {
+					"app-vue": "y",
+					"app-nvue": "n"
+				},
+				"H5-mobile": {
+					"Safari": {
+                        "minVersion": "14.0.2"
+                    },
+					"Android Browser": "y",
+					"微信浏览器(Android)": "y",
+					"QQ浏览器(Android)": "y"
+				},
+				"H5-pc": {
+					"Chrome": "y",
+					"IE": "u",
+					"Edge": "y",
+					"Firefox": "u",
+					"Safari": "u"
+				},
+				"小程序": {
+					"微信": "y",
+					"阿里": "u",
+					"百度": "u",
+					"字节跳动": "u",
+					"QQ": "u"
+				},
+				"快应用": {
+					"华为": "u",
+					"联盟": "u"
+				}
+			}
+		}
+	}
+}

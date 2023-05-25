@@ -1,0 +1,15 @@
+{
+    "id": "lt-back-top",
+    "name": "回到顶部",
+    "version": "1.0.0",
+    "description": "无",
+    "keywords": [
+        "无"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}
